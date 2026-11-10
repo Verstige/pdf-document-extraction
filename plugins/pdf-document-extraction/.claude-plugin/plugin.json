@@ -1,0 +1,18 @@
+{
+  "name": "pdf-document-extraction",
+  "displayName": "Pdf Document Extraction",
+  "version": "1.0.0",
+  "description": "Document text extraction and editing: text-based PDFs via pymupdf, scanned/image-based PDFs via qlmanage+vision (macOS), marker-pdf (GPU-only, not on every machine), nano-pdf for natural-language edits, python-docx for Word, python-pptx for PowerPoint.",
+  "author": {
+    "name": "the maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agent",
+    "pdf document extraction"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}

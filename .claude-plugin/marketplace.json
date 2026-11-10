@@ -1,0 +1,19 @@
+{
+  "name": "pdf-document-extraction",
+  "description": "Document text extraction and editing: text-based PDFs via pymupdf, scanned/image-based PDFs via qlmanage+vision (macOS), marker-pdf (GPU-only, not on every machine), nano-pdf for natural-language edits, python-docx for Word, python-pptx for PowerPoint.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Document text extraction and editing: text-based PDFs via pymupdf, scanned/image-based PDFs via qlmanage+vision (macOS), marker-pdf (GPU-only, not on every machine), nano-pdf for natural-language edits, python-docx for Word, python-pptx for PowerPoint.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pdf-document-extraction",
+      "source": "./plugins/pdf-document-extraction",
+      "description": "Document text extraction and editing: text-based PDFs via pymupdf, scanned/image-based PDFs via qlmanage+vision (macOS), marker-pdf (GPU-only, not on every machine), nano-pdf for natural-language edits, python-docx for Word, python-pptx for PowerPoint."
+    }
+  ]
+}
